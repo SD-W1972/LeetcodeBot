@@ -17,8 +17,8 @@ public class LeetcodeBotDemoApplication implements CommandLineRunner{
 
 	 
 	   public void run(String... args) throws Exception {
-	        String token = "MTI5NzY5MzM1MzU1NDc0MzMyNw.Gaz-mG.WXbSI2AnsSJZO2JxLctrWc3rYPRTG19QgpbvUE";
-	        JDA jda = JDABuilder.createDefault(token)
+	        String nekot = "MTI5NzY5MzM1MzU1NDc0MzMyNw.Gaz-mG.WXbSI2AnsSJZO2JxLctrWc3rYPRTG19QgpbvUE";
+	        JDA jda = JDABuilder.createDefault(nekot)
 	                .setActivity(net.dv8tion.jda.api.entities.Activity.playing("Spring no Discord!"))
 	                .build();
 	        jda.awaitReady();
